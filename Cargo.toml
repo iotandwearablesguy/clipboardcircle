@@ -1,0 +1,21 @@
+[package]
+name = "calculations_of_a_circle"
+version = "0.1.0"
+edition = "2021"
+authors = ["terry o'shea <terry.oshea@me.com>"]
+description = "Example of GTK4 Package Using Calculation of a Circle and Text Augmenting."
+documentation = "https://github.com/terryo-iotandwearablesguy/calculations_of_a_circle"
+readme = "README.md"
+homepage = "https://terranceoshea.com"
+repository = "https://github.com/terryo-iotandwearablesguy/calculations_of_a_circle"
+license-file = "LICENSE"
+publish = false
+
+[dependencies]
+csv = "1.1.6"
+gio = "0.16.2"
+gtk = { version = "0.5.0", package = "gtk4" }
+once_cell = "1.15.0"
+pango = "0.16.0"
+rand = "0.8.5"
+serde = "1.0.147"

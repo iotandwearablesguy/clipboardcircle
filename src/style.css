@@ -1,0 +1,17 @@
+button#button_enter{
+  color: rgb(255, 255, 0);
+  background: rgb(0, 0, 255);
+  font-weight: bold;
+}
+button#button_results{
+  color: rgb(255, 255, 255);
+  background: rgb(255, 0, 0);
+  font-weight: bold;
+}
+button#button-3{
+  color: rgb(208, 255, 0);
+  background: rgb(11, 102, 34);
+  font-weight:800;
+  font-style:italic;
+}
+
