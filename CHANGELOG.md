@@ -5,32 +5,42 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased] - yyyy-mm-dd
+## [Released] - 2022-11-12
 
-Here we write in-progress features that have not yet been released. At the top a small summary as well as any steps to upgrade should be included.
+Initial release with the proper documentation and readme.md files
 
 ### Added
 
-add
 
-- New features.
+Three input fields. 
+
+1. The first takes the radius of the circle accepts once the submit button is pressed and displays answer when the calculate button is press.
+2. The second takes the radious and calculates the circumference of a circle. with similar actions.
+3. The final adds Terry to any text string.
+
+### TODOs Future Releases
+
+1. Fix vscode templates
+2. Set up actions and clean up interfaces CSS.
+3. Clean up variable names.
+
 
 ### Changed
 
-- Changes in existing functionality.
+- initial release
 
 ### Deprecated
 
-- Soon-to-be removed features.
+- none.
 
 ### Removed
 
-- Removed features.
+- none.
 
 ### Fixed
 
-- Bug fixes.
+- none.
 
 ### Security
 
-- Vulnerabilities fixed.
+- Vulnerabilities - unknown.

@@ -1,12 +1,11 @@
-
 {
     "version": "0.2.0",
     "configurations": [
         {
-"name": "Mac - Rust Debug", "type": "lldb",
+"name": "Mac - Rust Debug", 
+"type": "lldb",
 "request": "launch",
-"program": "${workspaceRoot}/target/debug/clipboardcircle",
-
+"program": "${workspaceRoot}/target/debug/calculations_of_a_circle",
 //"cargo": {
 //"args": [
    //  "test", "--no-run", "--lib", "--package=smf" "--verbose"
