@@ -19,7 +19,21 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Three input fields. 
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="screen1.jpg" alt="Screen1"></a>
+</p>
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="screen2.jpg" alt="Screen2"></a>
+</p>
+
+<p align="center">Screen shots of the app.
+    <br> 
+</p>
+
+### Three input fields. 
 
 1. The first takes the radius of the circle accepts once the submit button is pressed and displays answer when the calculate button is press.
 2. The second takes the radious and calculates the circumference of a circle. with similar actions.
@@ -44,12 +58,11 @@ btn.connect_clicked(clone!(@weak clipboard, @weak from_entry => move |_btn| {
    }));
 ```
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+## 🏁 Purpose and Getting Going <a name = "getting_started"></a>
 
 The main purpose of this demo is to provide a code template for creating GUIs for RUST code projects moving forward.  This is really part one of two.  In this first demo/template the layout is constructed in a strict Box Builder container style. Using this paradaigm each element is added in a container stacked progressively downward in the window. The other builder approach not included here is a grid builder pattern.  These builder patterns rely on constructed pre-defined widgets which can be selected from [here](https://docs.gtk.org/gtk4/visual_index.html)
 
 Alternatively a non-builder pattern can be used in gtk which they call a Composite Template.  Where GTK allows for a custom layout to describe the user interface with a markup language - they use XML. see the documentation at (https://gtk-rs.org/gtk4-rs/stable/latest/book/composite_templates.html) 
-
 
 
 ### Build
@@ -67,8 +80,8 @@ Automatically sets up debugging on the MacOS using VScode and LLDB Code extensio
 #### Prerequisites
 
 Need Vscode with extensions: 
-    - rust-analyzer
-    - code lldb
+- rust-analyzer
+- code lldb
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
